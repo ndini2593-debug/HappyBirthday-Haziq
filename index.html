@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Haziq 🤍</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600&display=swap');
+*{box-sizing:border-box}
+body{margin:0;font-family:'DM Sans',sans-serif;background:#eef7fb;color:#33434b;overflow-x:hidden}
+section{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px 20px;position:relative}
+.card{width:min(720px,100%);background:rgba(255,255,255,.82);border:1px solid rgba(255,255,255,.9);border-radius:30px;padding:38px 25px;text-align:center;box-shadow:0 20px 60px rgba(65,100,115,.15);backdrop-filter:blur(8px)}
+h1,h2{font-family:'Playfair Display',serif;margin:10px 0;color:#31515d}
+h1{font-size:clamp(42px,10vw,78px)}
+h2{font-size:clamp(30px,7vw,48px)}
+p{line-height:1.8;font-size:16px}
+.small{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#7895a0}
+button{border:0;background:#31515d;color:white;padding:15px 25px;border-radius:999px;font-size:15px;cursor:pointer;margin-top:18px;box-shadow:0 10px 25px rgba(49,81,93,.2)}
+button:hover{transform:translateY(-2px)}
+.photo{width:100%;max-width:470px;border-radius:24px;display:block;margin:20px auto;box-shadow:0 18px 45px rgba(49,81,93,.18)}
+.letter{text-align:left;background:#fff;border-radius:22px;padding:25px;line-height:1.9}
+.memories{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+.memory{background:#eaf4f7;padding:20px 10px;border-radius:18px}
+.memory b{display:block;margin-bottom:6px}
+.heart{position:fixed;pointer-events:none;animation:float 6s linear infinite;opacity:.65;font-size:18px}
+@keyframes float{from{transform:translateY(105vh) rotate(0)}to{transform:translateY(-10vh) rotate(30deg)}}
+.hidden{display:none}
+#musicBox{margin-top:20px;padding:15px;background:#eef7fb;border-radius:18px}
+@media(max-width:600px){.memories{grid-template-columns:1fr}.card{padding:30px 18px}}
+</style>
+</head>
+<body>
+
+<section id="home">
+<div class="card">
+<div class="small">sebuah kejutan kecil untuk</div>
+<h1>Haziq 🤍</h1>
+<p>Hari ini bukan hari biasa… sebab hari ini adalah hari lahir orang yang semakin lama semakin istimewa dalam hidup saya.</p>
+<button onclick="showNext('birthday')">Buka kejutan 🎁</button>
+</div>
+</section>
+
+<section id="birthday" class="hidden">
+<div class="card">
+<div class="small">8 Oktober 2004 · 22 tahun</div>
+<h2>Selamat Hari Jadi, Haziq! 🎂</h2>
+<img class="photo" src="gambar-kita.jpeg" alt="Gambar kita">
+<p>Selamat hari jadi untuk seseorang yang telah menjadikan tiga bulan terakhir ini lebih bermakna. 🤍</p>
+<p>Mungkin tiga bulan bukanlah satu tempoh yang panjang, tapi dalam masa yang singkat itu, awak dah jadi seseorang yang sangat istimewa untuk saya.</p>
+<button onclick="showNext('memories')">Teruskan 🤍</button>
+</div>
+</section>
+
+<section id="memories" class="hidden">
+<div class="card">
+<div class="small">3 bulan bersama</div>
+<h2>Memori Kecil Kita 🫶🏻</h2>
+<p>Setiap benda kecil dengan awak mungkin nampak biasa, tapi entah kenapa semuanya jadi kenangan yang saya nak simpan.</p>
+<div class="memories">
+<div class="memory">📸<b>Gambar kita</b>Kenangan yang saya suka tengok balik.</div>
+<div class="memory">😂<b>Gelak sama-sama</b>Walaupun kadang-kadang benda tak kelakar pun.</div>
+<div class="memory">🤍<b>Waktu bersama</b>Yang buat tiga bulan ini rasa begitu bermakna.</div>
+</div>
+<button onclick="showNext('letter')">Ada satu lagi… 💌</button>
+</div>
+</section>
+
+<section id="letter" class="hidden">
+<div class="card">
+<div class="small">Daripada seseorang yang sayang awak</div>
+<h2>Untuk Haziq 💌</h2>
+<div class="letter">
+<p>Haziq,</p>
+<p>Saya mungkin tak selalu pandai nak cakap apa yang saya rasa, tapi saya harap awak tahu yang saya betul-betul hargai kehadiran awak dalam hidup saya.</p>
+<p>Terima kasih untuk setiap perbualan, setiap gelak, setiap masa yang awak luangkan, dan juga untuk segala perkara kecil yang awak buat tanpa awak sedar.</p>
+<p>Saya tak tahu apa yang akan berlaku pada masa depan, tapi untuk sekarang, saya sangat bersyukur sebab kita dipertemukan.</p>
+<p>Tiga bulan ini mungkin baru permulaan. Saya harap selepas ini akan ada lebih banyak date, lebih banyak gelak, lebih banyak gambar, lebih banyak cerita, dan lebih banyak “kita”.</p>
+<p>Saya harap suatu hari nanti kita boleh tengok balik website kecil ini dan senyum sebab kita dah melalui begitu banyak perkara bersama.</p>
+<p><b>Selamat hari jadi, sayang. 🤍</b></p>
+<p>Semoga umur 22 ini membawa lebih banyak rezeki, kejayaan, ketenangan dan kebahagiaan untuk awak. Dan kalau boleh… saya nak ada di sisi awak untuk sambut lebih banyak birthday selepas ini. 🥹</p>
+<p style="text-align:center;font-family:'Playfair Display',serif;font-size:22px">3 bulan dah berlalu,<br>semoga masih banyak bulan dan tahun yang menunggu kita. 🤍</p>
+</div>
+<button onclick="showNext('song')">Satu perkara terakhir… 🎶</button>
+</div>
+</section>
+
+<section id="song" class="hidden">
+<div class="card">
+<div class="small">lagu untuk awak</div>
+<h2>Menamakanmu Cinta 🎶</h2>
+<p>Kalau saya perlu namakan apa yang saya rasa untuk awak… mungkin saya akan namakannya cinta. 🤍</p>
+<div id="musicBox">
+<p>🎵 <b>Menamakanmu Cinta</b></p>
+<p class="small">Tekan play pada lagu jika awak mahu tambahkannya sendiri.</p>
+</div>
+<button onclick="showNext('final')">Buka mesej terakhir ❤️</button>
+</div>
+</section>
+
+<section id="final" class="hidden">
+<div class="card">
+<div class="small">untuk awak, Haziq</div>
+<h2>Happy Birthday, Sayang 🤍</h2>
+<p>Terima kasih sebab hadir dalam hidup saya.</p>
+<p>Saya tak janji semuanya akan sentiasa sempurna, tapi saya harap kita akan terus belajar, memahami dan menjaga satu sama lain.</p>
+<p>Untuk umur 22 ini — semoga semua impian awak dipermudahkan.</p>
+<p><b>Dan semoga saya masih menjadi sebahagian daripada cerita awak untuk tahun-tahun yang akan datang. 🥹❤️</b></p>
+<h2 style="font-size:28px">I love you. 🤍</h2>
+<p class="small">8.10.2026 · 3 months of us</p>
+</div>
+</section>
+
+<script>
+function showNext(id){
+  document.querySelectorAll('section').forEach(s=>s.classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function heart(){
+ const h=document.createElement('div'); h.className='heart'; h.textContent=['🤍','♡','✨'][Math.floor(Math.random()*3)];
+ h.style.left=Math.random()*100+'vw'; h.style.animationDuration=(4+Math.random()*4)+'s';
+ document.body.appendChild(h); setTimeout(()=>h.remove(),8000);
+}
+setInterval(heart,900);
+</script>
+</body>
+</html>
